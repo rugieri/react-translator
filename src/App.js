@@ -10,7 +10,7 @@ export default function App() {
 
   return (
     <div>
-      <Field />
+      <Field label="Enter English" onChange={setText} value={text} />
       <Languages />
       <hr />
       <Translate />
