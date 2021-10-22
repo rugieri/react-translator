@@ -13,7 +13,7 @@ export default function App() {
       <Field label="Enter English" onChange={setText} value={text} />
       <Languages language={language} onlanguageChange={setLanguage} />
       <hr />
-      <Translate />
+      <Translate text={text} language={language} />
     </div>
   );
 }
