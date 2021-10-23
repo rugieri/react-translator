@@ -25,7 +25,7 @@ export default ({ language, text }) => {
       return;
     }
 
-    const cancelToken = axios.cancelToken.source();
+    const cancelToken = axios.CancelToken.source();
 
     doTranslation(text, language, cancelToken).then(setTranslated);
 
