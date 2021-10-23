@@ -1,5 +1,5 @@
-import { useState } from 'react';
 import './styles.css';
+import { useState } from 'react';
 import Field from './components/field';
 import Languages from './components/languages';
 import Translate from './components/translate';

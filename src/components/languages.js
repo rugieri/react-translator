@@ -17,7 +17,7 @@ const LANGUAGES = [
 
 const Languages = ({ language, onlanguageChange }) => {
   if (language === undefined) {
-    language = 'pt';
+    language = 'es';
   }
   const languageConfig = LANGUAGES.find((l) => l.value === language);
   if (!languageConfig) {
