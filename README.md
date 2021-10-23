@@ -4,6 +4,20 @@ A simple react app to translate languages.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## 
+How to get a Google Translate API Key
+
+
+With any Google account (except Middlebury accounts), you can get a free $300 trial to use Google’s Cloud Translation API.
+
+    Log into your personal (non-MIIS) Google account
+    Go to the Google API Console.
+    In the search box, enter “Cloud Translation API” and select it.
+    Enable it and you may have to go through a process to enable billing, but you should get a free $300 trial!
+    Go to Credentials and create an API key (choose “Create Credentials” at the top and choose “API key”)
+
+Now you can use your API key to use Google Translate 
+
 ## Available Scripts
 
 In the project directory, you can run:
