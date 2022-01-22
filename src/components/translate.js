@@ -5,7 +5,7 @@ const doTranslation = async (input, languageCode, cancelToken) => {
   try {
     const { data } = await axios.post(
       // change and insert your api key below***
-      'https://translation.googleapis.com/language/translate/v2?key=AIzaSyBDpJ63zqN_KESFUMFl_BlIvQVPCgSufWM',
+      'YOUR_API_KEY_HERE',
       {
         q: input,
         target: languageCode,

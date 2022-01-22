@@ -12,10 +12,13 @@
     "glob-parent": "5.1.2",
     "immer": "9.0.6",
     "is-svg": "4.3.0",
+<<<<<<< HEAD
     "json-schema": "0.4.0",
     "node-forge": "1.0.0",
+=======
+>>>>>>> d8a8e9a56be9952c4bb17fc0cead43779cf19b44
     "nth-check": "2.0.1",
-    "postcss": "8.2.10",
+    "postcss": "8.2.13",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
